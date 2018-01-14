@@ -1,0 +1,2361 @@
+﻿html,body 
+{
+    font-family:'Open Sans',sans-serif;
+    color:#808080;
+}
+#tipos-cancer {
+    margin-left: -35px;
+}
+header
+{
+    background:#FEAFC0;
+    height:100px;
+    width:100%;
+}
+header #logotipo
+{
+    float:left;
+    line-height:100px;
+}
+header #inicio
+{
+    float:right;
+    line-height:100px;
+}
+header #inicio i
+{
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+}
+header #inicio a
+{
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+}
+#mastografia .container
+{
+    background:#FEAFC0;
+    width: 100%;
+}
+#mastografia #mastografia-img, #mastografia #registro
+{
+    display: block;
+    justify-content: center;
+}
+#mastografia #registro
+{
+    padding:0px;
+    width:333px;
+    margin-top:60px;
+}
+#mastografia #registro h1
+{
+    color:#fff;
+    font-size:65px;
+    font-weight:600;
+    letter-spacing:-3px;
+    margin:0;
+}
+#mastografia #registro h4
+{
+    margin:0;
+}
+#mastografia #registro span
+{
+    color:#808080;
+    font-weight:700;
+}
+#mastografia #registro a
+{
+    animation: mover 1.5s;
+    animation-iteration-count: infinite;
+    background: #fff;
+    color:#FEAFC0;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    margin-top:100px;
+    padding: 15px 40px;
+    line-height: initial;
+}
+#mastografia #registro a:hover, #mastografia #registro a:focus, #mastografia #registro a:active 
+{
+    text-decoration:none;
+}
+#section0{
+	/*background: url('../images/red.png') no-repeat center;
+    background-size:cover;
+    background-position-y: 50px;
+    position:relative;
+    width:100%;*/
+    background: #FEF8FB;
+}
+#section1{
+	background: url('../images/proximamente.jpg') no-repeat center;
+    position:relative;
+    width:100%;
+}
+#slogan{
+    position:relative;
+    left:10%;
+}
+#slogan2
+{
+    position:relative;
+    margin: 0 auto;
+}
+.vcenter {
+   display: inline-block;
+   vertical-align: middle;
+   float: none;
+}
+#principal, #perfil, #principal2, #principal3
+{
+    background:#FEF8FB;
+    color:#808080;
+    line-height:1.42857143;
+}
+#general {
+    color:#808080;
+    line-height:1.42857143;
+}
+#principal2
+{
+    background-color: #FEF8FB ;
+    height: calc(100vh - 100px);
+}
+#principal3 #principal-contenedor #ingresa-info, #principal3 #principal-contenedor #msj-info
+{
+    
+    padding: 20px 15px;
+}
+#principal2 #registro-info {
+    padding: 20px 15px;
+}
+
+#preventivo
+{
+    background: url('../images/proximamente.jpg') no-repeat center;
+    background-color:#d69599;
+    background-size:cover;
+    width:100%;
+    top:100px;
+}
+#principal-contenedor
+{
+    padding:0;
+}
+#principal-contenedor p
+{
+    font-weight:600;
+}
+#principal-contenedor li
+{
+    font-weight:600;
+    list-style-image:url('../images/bien.png');
+    margin: 10px 0;
+}
+#ingresa-info, #gracias-info, #registro-info, #msj-info
+{
+    background:#fff;
+    padding:20px 15px 100%;
+}
+#mastografia-info
+{
+    background:#fff;
+    padding:20px 15px 30px;
+}
+#ingresa-info h3, #gracias-info h3, #registro-info h3, #mastografia-info h3, #msj-info h3
+{
+    font-weight:600;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:center;
+    padding: 0;
+}
+#principal-contenedor form
+{
+    margin-top:10px;
+}
+.casilla
+{  
+    padding-left:0;
+    padding-right:0;
+    z-index: 0;
+}
+.casilla label
+{
+    text-align:center !important;
+}
+#principal-contenedor label
+{
+    display:block;
+    font-size:15px;
+    font-weight:normal;
+    margin-bottom:0;
+    text-align: left;
+}
+#principal-contenedor input::placeholder { color: #afafaf; }
+{
+    border:2px solid rgba(130, 129, 133,0.6);
+    font-size:15px;
+    margin-bottom:10px;
+    padding:6px 15px;
+    outline:0;
+    width:100%;
+}
+#principal-contenedor input
+{
+    border:2px solid rgba(130, 129, 133,0.6);
+    font-size:15px;
+    margin-bottom:10px;
+    padding:7.5px 15px;
+    outline:0;
+    width:100%;
+}
+#principal-contenedor select
+{
+    border:2px solid rgba(130, 129, 133,0.6);
+    font-size:15px;
+    margin-bottom:10px;
+    padding:6px 15px;
+    outline:0;
+    width:100%;
+}
+#registro-mes, #nombre-content, #materno-content, #correo-content, #mastografia-mes, #correo-usuario, #fecha-mastografia, #nombre-datos, #apellidom-datos
+{
+    padding-left:0;
+}
+#registro-dia, #paterno-content, #telefono-content, #registro-year, #genero-content, #mastografia-dia, #mastografia-year, #hora-mastografia, #continuar-cont, #apellidop-datos, #telefono-usuario, #correo-content
+{
+    padding-right:0;
+}
+#principal-contenedor form input::placeholder
+{
+    opacity:.6;
+}
+#principal-contenedor form input:focus, #principal-contenedor form input:active 
+{
+    border:2px solid rgba(130, 129, 133,1);
+}
+#principal-contenedor form .error p
+{
+    text-align:left;
+}
+#principal-contenedor a
+{
+    color:#808080;
+    display:block;
+    font-weight:600;
+    text-align:center;
+}
+#principal-contenedor #registro-info h4
+{
+    padding-left:15px;
+    padding-right:15px;
+    margin: 20px 0;
+}
+#principal-contenedor #promociones-chk input, #principal-contenedor #promociones-chk label
+{
+    display:inline-block;
+    margin:5px 0;
+    width:initial;
+}
+#principal-contenedor #cuenta p
+{
+    font-size:16px;
+    font-weight:normal;
+    margin:0;
+}
+#principal-contenedor #cuenta a
+{
+    border:2px solid #000;
+    color:#000;
+    display:block;
+    font-weight:600;
+    margin:10px auto;
+    padding:5px;
+    text-decoration:none;
+    width:200px;
+}
+#principal-contenedor #btn-registro, #principal-contenedor #btn-continuar, #principal-contenedor #btn-ubicar
+{
+    background:#FEAFC0;
+    border:0;
+    display:block;
+    font-weight:700;
+    color:#fff;
+    padding:10px;
+    outline:0;
+    text-transform:uppercase;
+    margin:10px auto;
+    width:200px;
+}
+#cuenta
+{
+    text-align:center;
+}
+.registro-hr
+{
+    margin: 15px auto;
+    border: 1px solid rgb(158, 158, 158);
+    float: left;
+    width: 100%;
+}
+#principal-contenedor button
+{
+    position:relative;
+}
+#principal-contenedor button:before
+{
+    font-size:20px;
+    left:-5px;
+    position:relative;
+    top:2px;
+}
+#principal-contenedor #btn-ubicar
+{
+    margin-bottom:10px;
+    width:50%;
+}
+#btn-continuar:before, #btn-registro:before, #logueo:before
+{
+    left:initial !important;
+    position:absolute !important;
+    right:5%;
+    top:13px !important;
+}
+#ingresa-info a#claves
+{
+    text-decoration:underline;
+}
+#ingresa-info a#registrate
+{
+    background:#fff;
+    border:2px solid #808080;
+    color:#808080;
+    display:block;
+    margin:20px auto;
+    padding:8px;
+    transform:scale(1);
+    transition:all .5s;
+    width:250px;
+}
+#ingresa-info a#registrate:hover, #ingresa-info a#registrate:focus, #ingresa-info a#registrate:active
+{
+    text-decoration:none;
+    transform:scale(1.1);
+} 
+#historia a#registrate
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    transform: scale(1);
+    transition: all .5s;
+    width: 250px;
+    text-align:center;
+}
+#historia a#registrate:hover, #historia a#registrate:focus, #historia a#registrate:active
+{
+    text-decoration:none;
+    transform:scale(1.1);
+}
+.enviaInvitacion
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff !important;
+    margin: 21% auto;
+    padding: 10px;
+    transform: scale(1);
+    transition: all .5s;
+    width: 220px;
+    font-size: 18px;
+    display:block;
+    text-align:center;
+}
+.enviaInvitacion:hover, .enviaInvitacion:focus, .enviaInvitacion:active
+{
+    text-decoration:none;
+    transform:scale(1.1);
+} 
+#msj-info a#iniciasesion
+{
+    border:0;
+    background:#FEAFC0;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
+    display:block;
+    margin:50px auto;
+    outline:0;
+    padding:8px;
+    transform:scale(1);
+    transition: all .5s;
+    width:250px;
+}
+#msj-info a#iniciasesion:hover, #msj-info a#iniciasesion:focus, #msj-info a#iniciasesion:active
+{
+    text-decoration:none;
+    transform:scale(1.1);
+}
+#CheckDeAcuerdo{
+    padding: 0;
+    display: flex;
+}
+#ingresa-info button, #msj-info button
+{
+    border:0;
+    background:#FEAFC0;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
+    display:block;
+    margin:50px auto;
+    outline:0;
+    padding:8px;
+    transform:scale(1);
+    transition: all .5s;
+    width:250px;
+}
+#ingresa-info button:hover, #ingresa-info button:focus, #ingresa-info button:active, #msj-info button:hover, #msj-info button:focus, #msj-info button:active
+{
+    transform:scale(1.1);
+}
+#ingresa-info hr
+{
+    border: 1px solid #FEAFC0;
+}
+#mastografia-registro #beneficiados
+{
+    text-align:center;
+}
+#mastografia-registro #beneficiados p
+{
+    margin:20px 0;
+}
+#mastografia-info #ciudad-clinica i, #mastografia-info #ciudad-clinica a 
+{
+    display:inline-block;
+    line-height:35px;
+    color:#FEAFC0;
+}
+#personasred {
+    font-size: 90px;
+    text-align: center;
+}
+
+/*CHECKBOX CSS*/
+
+.casilla input[type=radio]
+{
+  position: absolute;
+  visibility: hidden;
+}
+.casilla label, .casilla label
+{
+  display: block;
+  position: relative;
+  padding: 0 10px;
+  margin: 10px;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+.casilla .check
+{
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 5px;
+  left: 0;
+  z-index: 5;
+  transition: border .25s linear;
+}
+.casilla .check 
+{
+  border: 1px solid #808080;
+}
+.casilla .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 9px;
+  width: 9px;
+  top: 6px;
+  left: 6px;
+  margin: auto;
+	
+}
+.casilla input[type=radio]:checked ~ .check {
+  border: 2px solid #808080; /*Borde check*/
+}
+
+.casilla input[type=radio]:checked ~ .check::before{
+  background: #FEAFC0; /*checked*/
+}
+
+.casilla input[type=radio]:checked ~ label
+{
+  color: #808080;
+  text-decoration:underline;
+}
+#perfil
+{
+    padding:40px 0;
+}
+#perfil #tu-perfil
+{
+    border-left:7px solid #FEAFC0;
+    height: 220px;
+    margin-bottom: 15px;
+}
+#perfil h4, #perfil h5
+{
+    font-weight:600;
+}
+#perfil p
+{
+    margin:0 0 2px;
+}
+#perfil #tu-mastografia
+{
+    padding-left:0;
+    padding-right:0;
+    /*height:255px;*/
+    margin-top:15px;
+}
+#perfil #tu-mastografia h4
+{
+    padding-left:0;
+    padding-right:15px;
+}
+#perfil #folio
+{
+    display:block;
+    margin:0 auto;
+    width:250px;
+}
+#perfil #folio-masto
+{
+    font-size:12px;
+}
+#perfil #pfolio
+{
+    background:#FFFBFB;
+    color:#FEAFC0;
+    font-size:30px !important;
+    font-weight:700;
+    text-align:center;
+    width:100%;
+}
+#perfil #folio-vigencia
+{
+    font-size:12px;
+    text-align:right;
+}
+#perfil #tu-cita, #perfil #tu-cita-img, #perfil #tu-clinica
+{
+    text-align:center;
+}
+#perfil #icono-noticias
+{
+    background:#FEAFC0;
+    border:0;
+    border-radius: 0 0 5px 5px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    margin:20px 0 0;
+    padding:8px;
+    width:100%;
+    outline:0;
+}
+#perfil #tu-cita h4, #perfil, #tu-clinica h4
+{
+    margin:0;
+}
+#perfil #tu-cita p, #perfil#tu-clinica p
+{
+    font-size:12px;
+}
+#perfil #red-prevencion
+{
+    height:505px;
+}
+#perfil #red-prevencion h4
+{
+    float:left;
+}
+#perfil #red-prevencion a
+{
+    color:#808080;
+    float:right;
+    position:relative;
+    top:10px;
+}
+#perfil #fila1 {
+    padding-left:0;
+    padding-right:0;
+    margin-bottom:15px;
+}
+#perfil #fila2, #perfil #fila3 {
+    margin-top:15px;
+}
+
+#perfil #fila3
+{
+   border-radius:6px;
+   background:#fff;
+}
+#perfil #nuestra-ubicacion 
+{
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+#perfil #importante
+{
+    margin-top:15px;
+    padding-bottom:15px;
+    margin-bottom:15px;    
+}
+#personas-contenedor
+{
+    border-radius:5px;
+    color:#FEAFC0;
+    font-weight:700;
+    height: 130px;
+    margin: 30px auto 0;
+    width: 70%;
+}
+#personas-contenedor #personas-red
+{
+    font-size:110px;
+    line-height:130px;
+    text-align:right;
+}
+#personas-contenedor #personas-red-text
+{
+    font-size:18px;
+    font-weight:normal;
+    padding:20px 0;
+    text-align:left;
+}
+#invitaciones {
+    height:404px;
+    overflow:auto;
+}
+#invitaciones2 {
+    height:404px;
+    overflow:auto;
+}
+#agregar-invitacion
+{
+    padding-left: 0;
+    height: 86px;
+    padding-top: 10px;
+}
+#agregar-invitacion #btn-agregarmas {
+    background: #fff;
+    border: 0;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 0;
+    padding: 8px 0px;
+    width: 100%;
+    outline:0;
+}
+#agregar-invitacion #btn-invitacion {
+    background: #FEAFC0;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 0;
+    padding: 8px;
+    width: 100%;
+    outline:0;
+}
+#invitaciones input
+{
+    padding-left:5px;
+    height:40px;
+}
+#cancer-mama
+{
+    margin:20px 0;
+}
+#cancer-mama li
+{
+    font-weight:600;
+    font-size:16px;
+    list-style-image: url(../images/bien.png);
+    margin:10px 0;
+}
+#cancer-mundo h3
+{
+    font-weight:600;
+    text-align:center;
+}
+#cancer-mundo
+{
+    margin:0px 0;
+}
+#cancer-mundo img
+{
+    display:block;
+    height:80px;
+    margin:30px auto;
+}
+#cancer-mundo p
+{
+    font-size:20px;
+    font-weight:600;
+    padding:0px 25px;
+    text-align:center;
+}
+#cancer-mundo div p:nth-child(2)
+{
+    color:#ed7189;
+    margin:0;
+}
+#cancer-mundo i
+{
+    margin:50px 0;
+}
+#factores div
+{
+    height:200px;
+    padding-left:0;
+}
+#factores h2
+{
+    margin:0;
+}
+#factores h4
+{
+    color:#ed7189;
+    font-weight:600;
+}
+#factores strong
+{
+    color:#FEAFC0;
+}
+#factores i
+{
+    margin:50px 0;
+}
+#cosas div
+{
+    height:500px;
+    padding-left:0;
+}
+#cosas h2
+{
+    margin:5px 0 0;
+}
+#cosas h2, #cosas h5
+{
+    color:#ed7189;
+    font-weight:600;
+}
+.form-invitaciones
+{
+    padding-left:0;
+    margin-bottom:15px;
+}
+.form-invitaciones input {
+    width:100%;
+}
+.p-derecha
+{
+    padding-right:0px;
+}
+.p-izq
+{
+    padding-left:0px;
+}
+.borde-izquierda 
+{
+    border-left:7px solid #FEAFC0;
+    margin: 10px 0px;
+}
+#perfil h4{
+    margin-left:20px;
+    font-weight:bold;
+}
+#nuestra-ubicacion h4 {
+    font-weight:600;
+    margin-left:0;
+}
+#cambiapass-form #correo{
+    margin-top:15px;
+}
+#cambiarpassword
+{
+    margin:5px auto 20px !important;
+}
+#cambiarnuevapassword
+{
+    margin:5px auto 20px !important;
+}
+#iniciasesion
+{
+    margin:5px auto 20px !important;
+}
+#iconlaboral 
+{
+    color:#FEAFC0;
+}
+#historia .col-md-12
+{
+    padding:0;
+}
+.btnsras
+{
+    position: relative;
+    margin-top:40px;
+}
+#facecomentarios {
+    width:600px;
+    margin:0 auto;
+}
+#salud-rosa iframe
+{
+    height:calc(100vh - 160px);
+    width:100%;
+}
+/*CLASES*/
+.fixed
+{
+    position:fixed;
+}
+.division
+{
+    bottom: 0;
+    width: 85%;
+    height: 1px;
+    position: relative;
+    background: #ed7189;
+    z-index: 1;
+    margin: 0 auto;
+}
+.division-v
+{
+    bottom: 15%;
+    width: 1px;
+    height: 70%;
+    left: 100%;
+    position: absolute;
+    background: #ed7189;
+    z-index: 1;
+}
+.txtcorreo {
+	font-size: 12px;
+	display: flex;
+}
+.iconColor{
+    color:#FEAFC0;
+}
+.bg-blanco
+{
+    border-radius:5px;
+    background:#fff;
+}
+.columna
+{
+    padding:40px 0;
+}
+.arrow
+{
+    cursor: pointer;
+    position: relative;
+    top:96%;
+    width: 100%;
+}
+#section0 .arrow
+{
+    top: 94%;
+    position: absolute;
+}
+#section1 .arrow
+{   
+    position:absolute;
+    color:#fff;
+}
+.icono-angle-down:before
+{
+    animation: mover 1.5s;
+    animation-iteration-count: infinite;
+    display:block !important;
+    font-size:80px;
+    line-height: 0.1em !important;
+    margin:0 auto !important;
+    transform:scale(1);
+}
+.no-margin
+{
+    background:#FEF8FB;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: -420px;
+    margin-top: 0;
+    padding:8px 50px 8px 405px;
+    width:auto;
+}
+.error
+{
+    color:#ff8653;
+    font-weight:600;
+}
+.img-columna
+{
+    padding:5% 15px;
+}
+.popover
+{
+    color:#fff;
+    background:#FEAFC0;
+    border:0;
+    border-radius:0;
+}
+.popover.bottom>.arrow:after
+{
+    border-bottom-color:#FEAFC0;
+}
+.arrow-down 
+{
+   left: calc(50% - 20px);
+   position: relative;
+   width: 0; 
+   height: 0; 
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #FFFBFB;
+   margin-bottom:30px;
+}
+.conoce
+{
+    font-family:'Open Sans',sans-serif;
+    margin-top:15px;
+    font-size:25px;
+    color:#fff;
+    font-weight:900;
+}
+.imgRegistro
+{
+    width: 60%;
+    margin: 0 auto;
+}
+.imgRegistro2
+{
+    margin: 0 auto;
+}
+.imgRegistro3
+{
+    margin: 0 auto;
+}
+#registro-form .alert-danger, #mastografia-form .alert-danger{
+    color: #ff8653;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight:700;
+    font-size:12px;
+}
+.alert {
+    padding: 0px;
+    margin-bottom: 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.has-error {
+    border-color: #ff8653 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.textomasto 
+{
+    width:80%;
+    margin:0 auto;
+}
+.txtinvitar 
+{
+    margin-bottom:20px;
+    text-align:center;
+}
+.bordenaranja {
+    border-left: 7px solid #ff8653;
+}
+.imgRegistro4
+{
+    width: 95%;
+    margin: 0 auto;
+}
+.margintop{
+    margin-top:6px;
+}
+.links
+{
+    display:initial !important;
+}
+.f18 
+{
+    font-size:18px;
+}
+.f20{
+    font-size:20px;
+}
+.f21 
+{
+    font-size:21px;
+}
+.bold20
+{
+    font-size:20px;
+    font-weight:bold;
+}
+.bold25 
+{
+    font-size:25px;
+    font-weight:bold;
+}
+.bold28
+{
+    font-size:28px;
+    font-weight:bold;
+}
+.bold21 
+{
+    font-size:21px;
+    font-weight:bold;
+}
+.bold80 
+{
+    font-size:80px;
+    font-weight:bold;
+}
+.bold34titulo
+{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+.italic30
+{
+    font-size:30px;
+    font-style:italic;
+    color:#fff;
+}
+.italic24
+{
+    font-size:24px;
+    font-style:italic;
+    color:#fff;
+}
+.txtiniciativa 
+{
+    padding:4% 0;
+}
+.txtiniciativa2
+{
+    text-align:center;
+}
+.divizq 
+{
+     background: url('../images/sras.jpg') no-repeat center;
+     height:700px;
+     padding:0;
+     background-color:#f6f5f4;
+     background-size: cover;
+}
+.divder
+{
+     background: url('../images/sras2.png') no-repeat center;
+     height:700px;
+     padding:0;
+     background-size: cover;
+}
+.txtnadie {
+    text-align:center;
+    padding:200px 40px;
+}
+.lamenormanera {
+    background:#fff;
+    text-align:center;
+    padding:2% 0;
+    font-size:44px;
+    font-weight:bold;
+}
+.backdivs 
+{
+    background:#FFFBFB;
+}
+.video-promo {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 525px;
+}
+.titpreguntas {
+    background:#FFFBFB;
+    text-align:center;
+}
+.pregunta {
+    font-size:20px;
+    font-weight:bold !important;
+    color:#ed7189;
+}
+.respuesta {
+    margin:20px 0;
+    font-size:18px;
+    font-weight:100 !important;
+}
+.divderpreguntas {
+     height:180px;
+     padding:0;
+     background:#FEAFC0;
+}
+.divizqpreguntas
+{
+     background: url('../images/redbanner.png') no-repeat center;
+     height:180px;
+     padding:0;
+     background-color:#fef3f5;
+}
+.divizqhistorias
+{
+     background: url('../images/bannerhistorias.png') no-repeat center;
+     height:180px;
+     padding:0;
+     background-color:rgba(220, 155, 150, 0.92);
+}
+.bannerHistoria {
+    text-align:center;
+    color: #fff;
+    font-size:24px;
+    margin:18% 15px;
+}
+.bannerHistoria2 {
+    text-align:center;
+    color: #fff;
+    font-size:24px;
+    margin:13% 15px;
+}
+.historia {
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    display:flex;
+    align-items:center;
+}
+.divSombra {
+    -webkit-box-shadow: 5px 9px 27px -4px rgba(128,128,128,0.41);
+    -moz-box-shadow: 5px 9px 27px -4px rgba(128,128,128,0.41);
+    box-shadow: 5px 9px 27px -4px rgba(128,128,128,0.41);
+}
+.img-testimonio {
+    margin:0 auto;
+}
+.btnHistoria {
+    background: #ed7189;
+    border: 2px solid #ed7189;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    transform: scale(1);
+    transition: all .5s;
+    width: 215px;
+    float:left;
+    text-align:center;
+}
+.btnHistoria:hover, .btnHistoria:focus, .btnHistoria:active {
+    text-decoration:none;
+    transform:scale(1.1);
+    color:#fff;
+}
+.commentfacebook {
+    text-align:center;
+}
+.nav-active
+{
+    border:2px solid #fff;
+    padding:12px;
+}
+.img-center
+{
+    display:block;
+    margin:0 auto;
+}
+.ui-widget.ui-widget-content
+{
+    line-height:1;
+}
+#divx1 .col-lg-11 {
+    width: 97%;
+}
+
+#divx1 .col-lg-1 {
+    width: 0.01%;
+}
+#divx1 .col-md-11 {
+    width: 96%;
+    position: relative;
+    left: 2%;
+    padding: 0;
+}
+#divx1 .col-md-1 {
+    width: 0.01%;
+}
+.capitalLetter
+{
+   float:left;
+   color:#FEAFC0;
+   background:#fff;
+   font-size:100px;
+   line-height:80px;
+   margin-right: 5px;
+}
+.btn-href a input, .btn-href a:hover, .btn-href a input:focus {
+    background: #fff;
+    border-radius: 0;
+    color: #FEAFC0 !important;
+    text-decoration: none !important;
+    outline: 0 !important;
+    height: 50px;
+    font-size: 18px;
+}
+
+.container-espera-sorpresas {
+    line-height: initial;
+}
+.texto1 p {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+}
+.texto2 p {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+.texto3 {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.hipervinculos
+{
+    margin:80px 0 30px;
+    padding-left:0;
+    padding-right:0;
+}
+.hipervinculos a
+{
+    color:#ed7189;
+    font-size:20px;
+    font-weight:600;
+}
+.hipervinculos a:hover, .hipervinculos a:active, .hipervinculos a:focus
+{
+    text-decoration:none;
+}
+.hipervinculos a::before
+{
+    line-height:1.428;
+}
+.art-anterior
+{
+    float:left;
+}
+.art-anterior a::before
+{
+    float:left;
+    margin-right:20px;
+}
+.art-siguiente
+{
+    float:right;
+}
+.art-siguiente a::before
+{
+    float:right;
+    margin-left:20px;
+}
+.spinner {
+    position: absolute;
+    right: 45px;
+    top: 12px;
+    display: none;
+}
+.spinner > div {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.spinner-login {
+    position: absolute;
+    left: 63%;
+    top: 120px;
+    display: none;
+}
+.spinner-login > div {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner-login .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner-login .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+#continuar-cont {
+    padding-top: 15px;
+}
+.contenedor-confirmar-datos {
+    display: none;
+}
+#correo-usuario {
+    padding-right: 0;
+}
+#check-usuario {
+    display: none;
+    padding-top: 20px;
+}
+/*Nuevo*/
+#container-texto2-paraalguienmas {
+    display: none;
+}
+#manzanasOyS {
+   margin: 0 auto;
+   margin-bottom: 10%;
+   margin-top: 10%;
+}
+.OyS {
+   font-size:20px;
+   font-weight:bold;
+   margin-bottom: 10%;
+}
+.ETM {
+   margin:0 auto;
+   margin-top: 10%;
+}
+#error-sms-telefono {
+    background: #fff;
+    padding-left: 15px;
+    color: #FF5C17;
+}
+.popoverul {
+    -webkit-padding-start: 20px !important;
+}
+.popoverul li {
+    font-weight:normal !important;
+    margin-top: 0 !important;
+    list-style-image: none !important;
+}
+/*Nuevo*/
+
+/*KEYFRAMES*/
+@-webkit-keyframes mover 
+{
+    0% 
+    {
+        transform:scale(1);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    100%
+    {
+        transform:scale(1);
+    }
+}
+@keyframes mover 
+{
+    0% 
+    {
+        transform:scale(1);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    100%
+    {
+        transform:scale(1);
+    }
+}
+
+/*MEDIAS*/
+@media screen and (max-width:1400px)
+{    
+    #mastografia #registro{
+        margin-top:0;
+    }
+    .txtnadie {
+        padding:150px 40px;
+    }
+}
+@media screen and (max-width:1280px)
+{
+    .italic50 {
+        font-size:45px;
+    }
+     #section1 
+    {
+        background: url('../images/proximamente2.png') no-repeat center;
+    }
+    #slogan
+    {
+        margin: 0 auto;
+        left:0;
+    }
+    #section1 .col-md-11{
+        padding: 0;
+        position: relative;
+        left: 3%;
+    }
+    #section1 .col-md-1{
+        width: 0.1%;
+        padding: 0;
+    }
+    #mastografia #registro h1{
+        margin-bottom:30px;
+    }
+}
+@media screen and (max-width:1199px)
+{
+    #mastografia #registro h1{
+        font-size:50px;
+        margin-bottom:0;
+    }
+    #mastografia #registro a {
+        margin-top:25px;
+    }
+    #invitaciones 
+    {
+        height:518px;
+    }
+    #invitaciones2
+    {
+        height:518px;
+    }
+    .enviaInvitacion {
+        margin:26% auto;
+    }
+    .bannerHistoria2 {
+        margin:9% 15px;
+    }
+    #cancer-mundo p
+    {
+        font-size:18px;
+    }
+    .spinner {
+        right: 22px;
+    }
+    .spinner-login {
+        left: 67%;
+    }
+}
+@media screen and (max-width:1024px)
+{    
+    #preventivo
+    {
+        background-size:contain;
+        background-color:#FEAFC0;
+    }
+    #cancer-mundo
+    {
+        padding-left:0;
+        padding-right:0;
+    }
+    #cancer-mundo div
+    {
+        padding-left:0;
+        padding-right:0;
+    }
+    #cancer-mundo p
+    {
+        font-size:16px;
+        padding: 0px 10px;
+    }
+    .img-testimonio
+    {
+        width:50%;
+    }
+    #salud-rosa iframe
+    {
+        height:calc(100vh - 140px);
+    }
+}
+@media screen and (max-width:991px)
+{
+    #divx1 .col-md-11 {
+        width: 95%;
+    }
+    .slogan {
+        margin-top:25px;
+    }
+    #preventivo, #section0, #section2 #principal, #section1 {
+        height: calc(100vh - 50px);
+    }
+    #section2 #principal 
+    {
+        overflow: auto;
+    }
+    #principal .img-columna {
+        padding: 3% 15px;
+    }
+    #section2 #principal .columna {
+        height: calc(100vh - 0%);
+        padding: 40px 0 10px;
+    }
+    #principal2 {
+        height: calc(0%);
+        padding: 10px 0 30px;
+    }
+    #principal2 .columna {
+        height: calc(100vh - 0%);
+        padding: 40px 0 10px;
+    }
+    #principal2 .img-columna
+    {
+        padding:5% 15px;
+    }
+    #nombre-content {
+        padding-right:0;
+    }
+    #paterno-content {
+        padding-left:0;
+    }
+     #telefono-content, #registro-dia, #genero-content, #apellidop-datos, #telefono-usuario, #mastografia-dia, #hora-mastografia, #genero-usuario
+    {
+        padding-left:0;
+    }
+    #materno-content, #correo-content, #registro-mes, #nombre-datos, #apellidom-datos, #correo-usuario, #mastografia-mes, #fecha-mastografia
+    {
+        padding-right:0;
+    }
+    #principal-contenedor #btn-ubicar
+    {
+        width:100%;
+    }
+    .imgRegistro4
+    {
+        width: 75%;
+    }
+    #tu-mastografia{
+        margin-bottom:30px;
+    }
+    #importante 
+    {
+        margin-bottom:30px;
+    }
+    #invitaciones 
+    {
+        height:404px;
+    }
+    #invitaciones2
+    {
+        height:404px;
+    }
+    #mastografia #registro h1{
+        width:50%;
+    }
+     #mastografia #registro {
+         width:100%;
+         margin-bottom:30px;
+    }
+    .txtiniciativa {
+        text-align:center;
+        padding:4% 0 0;
+    }
+    .txtiniciativa2
+    {
+        margin-bottom:30px;
+    }
+    .txtpregunta {
+        padding:1% 0 0;
+    }
+    .divder {
+        height:400px;
+    }
+    .divizq {
+        height:400px;
+    }
+    .txtnadie {
+        padding:55px 40px;
+    }
+    .video-promo {
+        height:440px;
+    }
+    #prefooter #salud-rosa h2 {
+        text-align:center !important;
+    }
+    #prefooter #salud-rosa h3 {
+        text-align:center !important;
+    }
+    .bold34titulo {
+        font-size:28px;
+    }
+    .pregunta{
+        font-size:18px;
+    }
+    .respuesta {
+        font-size:16px;
+    }
+    .enviaInvitacion {
+        margin:3% auto;
+    }
+    .bannerHistoria {
+        margin:2% 15px;
+        font-size:22px;
+    }
+    .bannerHistoria2 {
+        margin:2% 15px;
+        font-size:22px;
+    }
+    .historia {
+        display:initial;
+    }
+    .img-testimonio {
+        margin-bottom:15px;
+    }
+    .btnHistoria {
+        float:initial;
+    }
+    .bold20 {
+        font-size:18px;
+    }
+    .f18 {
+        font-size:16px;
+    }
+    .enviaInvitacion {
+        font-size:16px;
+    }
+    .spinner {
+        left: 68%;
+    }
+    .spinner-login {
+        left: 61%;
+    }
+    #navegacion div:last-child {
+        padding-left: 0;
+    }
+    #prefooter #siguenos {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:767px) 
+{
+    #cancer-mundo p
+    {
+        font-size:15px;
+        padding:0;
+    }
+}
+@media screen and (max-width:700px) {
+    .spinner-login {
+        left: 62.5%;
+    }
+}
+@media screen and (max-width:672px) {
+    #divx1 .col-md-11 {
+        width: 94%;
+        left: 3%;
+    }
+}
+@media screen and (max-width:640px)
+{
+    #logotipo img
+    {
+        width:80%;
+    }
+    header #inicio a 
+    {
+        font-size: 14px;
+    }
+    .bold28 {
+        font-size: 22px;
+    }
+    #mastografia #registro h1 {
+        font-size:44px;
+    }
+    .slogan {
+        max-width:50%;
+    }
+    #facecomentarios {
+        width:450px !important;
+    }
+    #facecomentarios iframe {
+        width:450px !important;
+    }
+    .spinner {
+        left: 71%;
+    }
+    .spinner-login {
+        left: 63.5%;
+    }
+    .hipervinculos a
+    {
+        font-size:18px;
+    }
+    .art-anterior a::before
+    {
+        margin-right:5px;
+    }
+    .art-siguiente a::before
+    {
+        margin-left:5px;
+    }
+    #salud-rosa iframe
+    {
+        height:calc(100vh - 90px);
+    }
+}
+@media screen and (max-width:600px) {
+    #section1 .col-md-11 {
+        left: 4%;
+    }
+    .texto1 p {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .texto2 p {
+        color: #fff;
+        font-size: 23px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    .texto3 {
+        color: #fff;
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+    .spinner {
+        left: 74%;
+    }
+    .spinner-login {
+        left: 64.5%;
+    }
+}
+@media screen and (max-width:560px) {
+    #divx1 .col-md-11 {
+        width: 93%;
+    }
+    .container-btn-registro {
+        padding-top: 15px;
+        width: 100%;
+    }
+    .spinner {
+        left: 63%;
+        top: 27px;
+    }
+    .spinner-login {
+        left: 65.5%;
+    }
+}
+@media screen and (max-width:500px) {
+    #section1 .col-md-11 {
+        left: 4.5%;
+    }
+    .texto1 p {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .texto2 p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    .texto3 {
+        color: #fff;
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    .spinner {
+        left: 64%;
+    }
+    .spinner-login {
+        left: 67.5%;
+    }
+}
+@media screen and (max-width:480px)
+{
+    #divx1 .col-md-11 {
+        width: 92%;
+        left: 3%;
+    }
+    header
+    {
+        height:50px;
+    }
+    header #inicio a 
+    {
+        font-size: 12px;
+    }
+    header #logotipo
+    {
+        line-height:50px;
+        width: 130px;
+    }
+    header #inicio
+    {
+        line-height:50px;
+    }
+    header #inicio i
+    {
+        display:none;
+    }
+    #logotipo img
+    {
+        width:50%;
+    }
+    #preventivo, #section0, #principal, #section1
+    {
+        height: calc(100vh - 50px);
+    }  
+    .imgRegistro3
+    {
+        width:80%;
+    }
+    .bold21 {
+        font-size:18px;
+    }
+    .f21{
+        font-size:18px;
+    }
+    .bold80 {
+        font-size:60px;
+    }
+    .bold25 {
+        font-size:18px;
+    }
+    .italic30 {
+        font-size:24px;
+    }
+    .italic24 {
+        font-size:20px;
+    }
+    .bold28 {
+        font-size:16px;
+    }
+    .video-promo {
+        height:320px;
+    }
+    .bold34titulo {
+        font-size:24px;
+    }
+    .pregunta{
+        font-size:16px;
+    }
+    .respuesta {
+        font-size:14px;
+    }
+     #facecomentarios {
+        width:320px !important;
+    }
+    #facecomentarios iframe {
+        width:320px !important;
+    }
+    .bold20 {
+        font-size:16px;
+    }
+    .f18 {
+        font-size:14px;
+    }
+    .bannerHistoria {
+        margin:4% 15px;
+        font-size:20px;
+    }
+    .bannerHistoria2 {
+        margin:4% 15px;
+        font-size:20px;
+    }
+    .enviaInvitacion {
+        font-size:14px;
+    }
+    .spinner-login {
+        left: 68.5%;
+    }
+    .hipervinculos a
+    {
+        font-size:14px;
+    }
+    .art-anterior a::before
+    {
+        margin-right:0;
+    }
+    .art-siguiente a::before
+    {
+        margin-left:0;
+    }
+}
+@media screen and (max-width:450px) {
+    .texto1 p {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .texto2 p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    .texto3 {
+        color: #fff;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .spinner {
+        left: 66%;
+    }
+    .spinner-login {
+        left: 70.5%;
+    }
+}
+@media screen and (max-width:440px) 
+{
+    #perfil .img-circle
+    {
+        display:none;
+    }
+    #perfil .col-xs-8
+    {
+        width:100%;
+    }
+    #pfolio
+    {
+        font-size:26px;
+    }
+    #perfil .container
+    {
+        padding:0;
+    }
+    #perfil #tu-cita-img
+    {
+        display:none;
+    }
+    #perfil .col-xs-4 
+    {
+        width:50%;
+    }
+    #nombres-tel
+    {
+        font-size:10px;
+    }
+    .imgRegistro4 
+    {
+        width:100%;
+    }
+    #personas-contenedor 
+    {
+        width:100%;
+        margin:0px auto 0;
+    }
+    #personasred 
+    {
+        font-size:70px;
+    }
+    #personas-contenedor #personas-red-text
+    {
+        font-size:14px;
+    }
+    #iconi 
+    {
+        position:absolute;
+    }
+    .arrow-down 
+    {
+        margin:0px;
+    }
+    #perfil #red-prevencion
+    {
+        height:360px;
+    }
+    #fila2 h4 
+    {
+        font-size:14px;
+    }
+    #agregar-invitacion #btn-invitacion 
+    {
+        font-size:14px;
+    }
+    #agregar-invitacion #btn-agregarmas
+    {
+        font-size:14px;
+    }
+    #invitaciones 
+    {
+        height:370px;
+    }
+    #invitaciones2
+    {
+        height:370px;
+    }
+    .enviaInvitacion {
+        margin:3% auto;
+        font-size:16px;
+    }
+    .bannerHistoria {
+        margin:2% 15px;
+        font-size:22px;
+    } 
+    .bannerHistoria2 {
+        margin:2% 15px;
+        font-size:22px;
+    } 
+}
+@media screen and (max-width:420px) {
+    #divx1 .col-md-11 {
+        width: 90%;
+        left: 4.5%;
+    }
+    .spinner-login {
+        left: 72.5%;
+    }
+}
+@media screen and (max-width:400px) {
+    .container-espera-sorpresas, .texto1 p, .btn-href {
+        padding: 0;
+    }
+    .texto2 p {
+        padding: 0 0 40px 0;
+    }
+    .texto3 {
+        padding: 0 0 15px 0;
+    }
+    .spinner {
+        left: 68%;
+        top: 25px;
+    }
+    .spinner-login {
+        left: 73.5%;
+    }
+    #navegacion div:nth-child(1) {
+        width: 100%;
+    }
+    #navegacion div:nth-child(2) {
+        width: 100%;
+        padding-left: 0;
+    }
+    #navegacion div:nth-child(3) {
+        width: 100%;
+    }
+}
+@media screen and (max-width:380px) 
+{
+    header #inicio a
+    {
+        font-size:9px;
+    }
+    #principal-contenedor #btn-registro, #principal-contenedor #btn-continuar
+    {
+        font-size:12px;
+    }
+    #principal-contenedor button:before
+    {
+        font-size:15px;
+    }
+    #cambiarpassword
+    {
+        width:80% !important;
+    }
+    #cambiarnuevapassword 
+    {
+        width:80% !important;
+        font-size:14px !important;
+    }
+    #iniciasesion
+    {
+        width:80% !important;
+        font-size:14px !important;
+    }
+    .bold21 {
+        font-size:16px;
+    }
+    .f21{
+        font-size:16px;
+    }
+    .bold25 {
+        font-size:16px;
+    }
+    .bold80 {
+        font-size:50px;
+    }
+    .italic30 {
+        font-size:22px;
+    }
+    .italic24 {
+        font-size:18px;
+    }
+    #prefooter a {
+        font-size:14px;
+    }
+    #prefooter #salud-rosa h2 {
+        font-size:24px;
+    }
+     #facecomentarios {
+        width:280px !important;
+    }
+    #facecomentarios iframe {
+        width:280px !important;
+    }
+    .bannerHistoria2 {
+        margin:2% 15px;
+        font-size:20px;
+    }
+}
+@media screen and (max-width:375px) {
+    .spinner-login {
+        left: 75.5%;
+    }
+}
+@media screen and (max-width:360px) {
+    .spinner-login {
+        left: 76.5%;
+    }
+    #mastografia #registro a {
+        padding: 15px 18px;
+    }
+}
+@media screen and (max-width:350px) {
+    .spinner {
+        left: 69%;
+        top: 25px;
+    }
+    .spinner-login {
+        left: 78.5%;
+        top: 135px;
+    }
+}
+@media screen and (max-width:340px) {
+    .spinner-login {
+        left: 81.5%;
+    }
+}
+@media screen and (max-width:336px) {
+    #divx1 .col-md-11 {
+        width: 89%;
+        left: 5.5%;
+    }
+    .texto1 p {
+        font-size: 32px;
+    }
+    .spinner {
+        left: 70%;
+        top: 25px;
+    }
+    .spinner-login {
+        left: 84.5%;
+    }
+    #ingresa-info {
+        padding: 20px 0 !important;
+    }
+}
+@media(max-width:325px)
+{
+    .spinner-login {
+        left: 86.5%;
+    }
+}
+@media(max-width:320px)
+{
+    #mamaehijo .img-responsive {
+        max-width:140%;
+    }
+}
+/*Cancelar Cita Div*/
+#CancelarCitaCont
+{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+#CancelarCitaLnk
+{
+    color: #FEAFC0;
+    cursor: pointer;
+    display: inline;
+}
+#CancelarCitaBtnsCont
+{
+    display: none;
+    padding-bottom: 15px
+}
+.bg-gris
+{
+    background-color: #fafafa;
+}
+#CancelarMsgBorrarTxt
+{
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+    color: #f25c23;
+    text-align: center;
+    width:100%;
+}
+#CancelarMsgBtnCancelar
+{
+    color: #95989A;
+    background-color: #E5E5E4;
+    border: 1px solid #E5E5E4;
+    padding: 10px 8px;
+    width:100%;
+}
+#CancelarMsgBtnBorrar
+{
+    color: white;
+    background-color: #f25c23;
+    border: 1px solid #f25c23;
+    padding: 10px 8px;
+}
+#CancelarDivsCont
+{
+    padding: 0px;
+}
+#CancelarDivsCont1
+{
+    padding-left: 0px;
+}
+#CancelarDivsCont2
+{
+    padding-right: 0px;
+}
+#CancelarMsgBtnCancelar:focus, #CancelarMsgBtnBorrar:focus
+{
+    outline: 0;
+}
+#cita-cancelada
+{
+    padding: 10px;
+    height: 370px;
+    margin-top: 15px;
+    background-image: url("../images/mastografia.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    display: none;
+}
+#cita-cancelada-header
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FEAFC0;
+}
+#cita-cancelada-mensaje
+{
+    margin-top: 10px !important;
+    font-size: 15px;
+    color: #95989A;
+}
+#cita-cancelada-iconos-cont
+{
+    margin-top: 30px;
+}
+.cita-cancelada-iconos
+{
+    font-size: 35px !important;
+    color: #FEAFC0;
+    margin-right: 7px;
+}
+#cita-cancelada-folio
+{
+    font-weight: bold;
+    color: #FEAFC0;
+}
+#invitaciones-enviadas
+{
+   color: #2CBB73 !important;
+   text-align: center;
+   padding-bottom: 10px;
+   display: none;
+}
+#invitaciones-enviadas-icono
+{
+   font-size: 35px !important;
+   color: #2CBB73 !important;
+}
+@media screen and (min-width:320px) and (max-width:380px)
+{
+    .cita-cancelada-iconos 
+    {
+        font-size: 23px !important;
+    }
+}
+@media screen and (min-width:480px) and (max-width:991px)
+{
+    .cita-cancelada-iconos 
+    {
+        font-size: 45px !important;
+    }
+}
+@media screen and (min-width:320px) and (max-width:380px)
+{
+    #cita-cancelada-mensaje
+    {
+        font-size: 14px;
+    }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     #mastografia-img
+     {
+         display:table-cell !important;
+     }
+}
